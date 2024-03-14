@@ -1,12 +1,5 @@
 import {
-  Github,
-  Home,
-  Linkedin,
-  NotebookText,
-  Palette,
-  Phone,
-  Twitter,
-  User,
+  FastForward
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -17,24 +10,22 @@ import { motion } from "framer-motion";
 const getIcon = (icon) => {
   switch (icon) {
     case "home":
-      return <Home className="w-full h-auto" strokeWidth={1.5} />;
+      return <FastForward className="w-full h-auto" strokeWidth={3} />;
     case "about":
-      return <User className="w-full h-auto" strokeWidth={1.5} />;
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
     case "projects":
-      return <Palette className="w-full h-auto" strokeWidth={1.5} />;
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
     case "contact":
-      return <Phone className="w-full h-auto" strokeWidth={1.5} />;
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
     case "github":
-      return <Github className="w-full h-auto" strokeWidth={1.5} />;
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
     case "linkedin":
-      return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
-    case "twitter":
-      return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
-    case "resume":
-      return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
+      case "pro":
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
 
     default:
-      return <Home className="w-full h-auto" strokeWidth={1.5} />;
+      return <FastForward className="w-full h-auto" strokeWidth={3} />;
   }
 };
 
