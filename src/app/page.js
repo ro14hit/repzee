@@ -21,6 +21,7 @@ export default function Home() {
         className="-z-50 w-full h-full object-cover object-center opacity-50"
       />
 
+
       <div className="w-full h-screen">
         <Navigation />
         <RenderModel>
