@@ -1,40 +1,36 @@
 import {
-  Github,
-  Home,
-  Linkedin,
-  NotebookText,
-  Palette,
-  Phone,
-  Twitter,
-  User,
+  FastForward
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import ResponsiveComponent from "../ResponsiveComponent";
 import clsx from "clsx";
 import { motion } from "framer-motion";
+import LooksOneIcon from '@mui/icons-material/LooksOne';
+import LooksTwoIcon from '@mui/icons-material/LooksTwo';
+import Looks3Icon from '@mui/icons-material/Looks3';
+import Looks4Icon from '@mui/icons-material/Looks4';
+import Looks5Icon from '@mui/icons-material/Looks5';
+import Looks6Icon from '@mui/icons-material/Looks6';
+import Filter7Icon from '@mui/icons-material/Filter7';
 
 const getIcon = (icon) => {
   switch (icon) {
     case "home":
-      return <Home className="w-full h-auto" strokeWidth={1.5} />;
+      return <LooksOneIcon className="w-full h-auto" strokeWidth={3} />;
     case "about":
-      return <User className="w-full h-auto" strokeWidth={1.5} />;
+      return <LooksTwoIcon className="w-full h-auto" strokeWidth={1} />;
     case "projects":
-      return <Palette className="w-full h-auto" strokeWidth={1.5} />;
+      return <Looks3Icon className="w-full h-auto" strokeWidth={1} />;
     case "contact":
-      return <Phone className="w-full h-auto" strokeWidth={1.5} />;
+      return <Looks4Icon className="w-full h-auto" strokeWidth={1} />;
     case "github":
-      return <Github className="w-full h-auto" strokeWidth={1.5} />;
-    case "linkedin":
-      return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
-    case "twitter":
-      return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
-    case "resume":
-      return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
+      return <Looks5Icon className="w-full h-auto" strokeWidth={1} />;
+      case "pro":
+      return <Looks6Icon className="w-full h-auto" strokeWidth={1} />;
 
     default:
-      return <Home className="w-full h-auto" strokeWidth={1.5} />;
+      return <Filter7Icon className="w-full h-auto" strokeWidth={1} />;
   }
 };
 

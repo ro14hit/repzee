@@ -63,7 +63,7 @@ const Navigation = () => {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 items-end xs:items-center justify-center relative group xs:hidden"
+                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-2 items-end xs:items-center justify-center relative group xs:hidden"
               >
                 {BtnList.slice(BtnList.length / 2, BtnList.length).map(
                   (btn) => {
@@ -73,7 +73,7 @@ const Navigation = () => {
                         x={0}
                         y={0}
                         {...btn}
-                        labelDirection="left"
+                        labelDirection="right"
                       />
                     );
                   }

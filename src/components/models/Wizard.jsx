@@ -15,6 +15,7 @@ const Wizard = React.memo(function Wizard(props) {
   useFrame((state) => {
     modelRef.current.position.y =
       -1.5 + Math.sin(state.clock.elapsedTime) * 0.15;
+      
   });
 
   return (

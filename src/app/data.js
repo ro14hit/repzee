@@ -90,33 +90,21 @@ export const projectsData = [
 ];
 
 export const BtnList = [
-  { label: "Home", link: "/", icon: "home", newTab: false },
-  { label: "About", link: "/about", icon: "about", newTab: false },
-  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
-  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  { label: "1) Hi Sanya 👋 👋", link: "/", icon: "home", newTab: false },
+  { label: "2) I think you r not understanding englis/hindi", link: "/", icon: "about", newTab: false },
+  { label: "3) So using another language 😭  😭  😭  😭", link: "/", icon: "projects", newTab: false },
+  { label: "4) & another way 🤔 🤔 🤔 🤔", link: "/", icon: "contact", newTab: false },
   {
-    label: "Github",
-    link: "https://www.github.com/codebucks27",
+    label: "5) Quand allez-vous donner le régal à Starbucks? ❓❓❓❓",
+    link: "/",
     icon: "github",
-    newTab: true,
+    newTab: false,
   },
   {
-    label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
-    icon: "linkedin",
-    newTab: true,
-  },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
-    newTab: true,
-  },
-  {
-    label: "Resume",
-    link: "/resume.pdf",
-    icon: "resume",
-    newTab: true,
+    label: "6) I wants to know? 😂 😂 😂 😂",
+    link: "/",
+    icon: "pro",
+    newTab: false,
   },
 ];
 
