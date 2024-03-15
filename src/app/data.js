@@ -91,9 +91,15 @@ export const projectsData = [
 
 export const BtnList = [
   { label: "1) Hi Sanya 👋 👋", link: "/", icon: "home", newTab: false },
+<<<<<<< HEAD
   { label: "2) I think you r not understanding englis/hindi", link: "/", icon: "about", newTab: false },
   { label: "3) So using another language 😭  😭  😭  😭", link: "/", icon: "projects", newTab: false },
   { label: "4) & another way 🤔 🤔 🤔 🤔", link: "/", icon: "contact", newTab: false },
+=======
+  { label: "2) Mujhe lagta hai tujhe english and hindi mai samajh nahi aata 😩 😩 😩 😩", link: "/", icon: "about", newTab: false },
+  { label: "3) This is my limit 😭  😭  😭  😭", link: "/", icon: "projects", newTab: false },
+  { label: "4) So trying to ask in another way 🤔 🤔 🤔 🤔", link: "/", icon: "contact", newTab: false },
+>>>>>>> a586d042445163971aad35363a0918af018af5b2
   {
     label: "5) Quand allez-vous donner le régal à Starbucks? ❓❓❓❓",
     link: "/",
@@ -101,7 +107,11 @@ export const BtnList = [
     newTab: false,
   },
   {
+<<<<<<< HEAD
     label: "6) I wants to know? 😂 😂 😂 😂",
+=======
+    label: "6) The Nation wants to know? 😂 😂 😂 😂",
+>>>>>>> a586d042445163971aad35363a0918af018af5b2
     link: "/",
     icon: "pro",
     newTab: false,

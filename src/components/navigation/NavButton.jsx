@@ -17,6 +17,7 @@ import Filter7Icon from '@mui/icons-material/Filter7';
 const getIcon = (icon) => {
   switch (icon) {
     case "home":
+<<<<<<< HEAD
       return <LooksOneIcon className="w-full h-auto" strokeWidth={3} />;
     case "about":
       return <LooksTwoIcon className="w-full h-auto" strokeWidth={1} />;
@@ -31,6 +32,24 @@ const getIcon = (icon) => {
 
     default:
       return <Filter7Icon className="w-full h-auto" strokeWidth={1} />;
+=======
+      return <FastForward className="w-full h-auto" strokeWidth={3} />;
+    case "about":
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
+    case "projects":
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
+    case "contact":
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
+    case "github":
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
+    case "linkedin":
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
+      case "pro":
+      return <FastForward className="w-full h-auto" strokeWidth={1} />;
+
+    default:
+      return <FastForward className="w-full h-auto" strokeWidth={3} />;
+>>>>>>> a586d042445163971aad35363a0918af018af5b2
   }
 };
 
