@@ -95,7 +95,7 @@ export const BtnList = [
   { label: "3) So using another language 😭  😭  😭  😭", link: "/", icon: "projects", newTab: false },
   { label: "4) & another way 🤔 🤔 🤔 🤔", link: "/", icon: "contact", newTab: false },
   {
-    label: "5) Quand allez-vous donner le régal à Starbucks? ❓❓❓❓",
+    label: "5) When will you give due treat of Starbucks? ❓❓❓❓",
     link: "/",
     icon: "github",
     newTab: false,
